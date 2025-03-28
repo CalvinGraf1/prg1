@@ -1,0 +1,26 @@
+Question :
+
+<<= --> Affecte directement
+<< --> Même chose mais n'affecte pas
+
+- Fichier Uint.o, utilité ?
+
+- Si uint64_t trop grand, on fait quoi ? (Et pour primalité et changement de base, du coups on doit utilisé un string en binaire ?)
+
+
+A faire :
+
+- Fonction de primalité
+- Opérateur << (Manip de bits)
+- set_base
+- Opérateur << (Affichage)
+
+Important :
+
+Gérer * 0
+
+Opérateur 3 voie --> fonction membre
+
+Exception --> Exit -1 ou abort()
+
+Durée du programme de test : quelques secondes (grand max 1 minute)
